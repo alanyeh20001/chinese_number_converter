@@ -8,13 +8,11 @@ Gem::Specification.new do |spec|
   spec.authors = ["alanyeh20001"]
   spec.email = ["alanyeh20001@hotmail.com"]
 
-  spec.summary = "Write a short summary, because RubyGems requires one."
-  spec.description = "Write a longer description or delete this line."
+  spec.summary = "Convert chinese number to number."
+  spec.description = "Convert number in chinese character, including chinese character aliases, to number."
   spec.homepage = "https://github.com/alanyeh20001/chinese_number_converter"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
-
-  spec.metadata["allowed_push_host"] = "Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/alanyeh20001/chinese_number_converter"
